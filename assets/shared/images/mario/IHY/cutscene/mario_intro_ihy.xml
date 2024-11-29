@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="mario intro ihy.png"><SubTexture name="mario intro ihy walk0000" x="0" y="0" width="26" height="33" frameX="0" frameY="0" frameWidth="26" frameHeight="33" />
-<SubTexture name="mario intro ihy walk0001" x="26" y="0" width="26" height="33" frameX="0" frameY="0" frameWidth="26" frameHeight="33" />
-<SubTexture name="mario intro ihy walk0002" x="52" y="0" width="26" height="33" frameX="0" frameY="0" frameWidth="26" frameHeight="33" />
-<SubTexture name="mario intro ihy looking up0000" x="0" y="33" width="26" height="33" frameX="0" frameY="0" frameWidth="26" frameHeight="33" />
-<SubTexture name="mario intro ihy huh0000" x="26" y="33" width="26" height="33" frameX="0" frameY="0" frameWidth="26" frameHeight="33" />
-<SubTexture name="mario intro ihy shocked0000" x="52" y="33" width="26" height="33" frameX="0" frameY="0" frameWidth="26" frameHeight="33" />
-<SubTexture name="mario intro ihy shocked0001" x="78" y="0" width="26" height="33" frameX="0" frameY="0" frameWidth="26" frameHeight="33" />
-<SubTexture name="mario intro ihy scared0000" x="78" y="33" width="26" height="33" frameX="0" frameY="0" frameWidth="26" frameHeight="33" />
-<SubTexture name="mario intro ihy scared0001" x="0" y="66" width="26" height="33" frameX="0" frameY="0" frameWidth="26" frameHeight="33" />
-<SubTexture name="mario intro ihy transition0000" x="26" y="66" width="26" height="33" frameX="0" frameY="0" frameWidth="26" frameHeight="33" />
-<SubTexture name="mario intro ihy transition0001" x="52" y="66" width="26" height="33" frameX="0" frameY="0" frameWidth="26" frameHeight="33" />
-<SubTexture name="mario intro ihy transition0002" x="78" y="66" width="26" height="33" frameX="0" frameY="0" frameWidth="26" frameHeight="33" />
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mario_intro_ihy.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="mario intro ihy walk0000" x="0" y="32" width="26" height="25" frameX="-5" frameY="-6" frameWidth="40" frameHeight="40"/>
+	<SubTexture name="mario intro ihy walk0001" x="26" y="32" width="29" height="22" frameX="-4" frameY="-7" frameWidth="40" frameHeight="40"/>
+	<SubTexture name="mario intro ihy walk0002" x="54" y="0" width="27" height="25" frameX="-5" frameY="-6" frameWidth="40" frameHeight="40"/>
+	<SubTexture name="mario intro ihy looking up0000" x="81" y="49" width="19" height="25" frameX="-10" frameY="-6" frameWidth="40" frameHeight="40"/>
+	<SubTexture name="mario intro ihy looking up0001" x="81" y="24" width="23" height="25" frameX="-6" frameY="-6" frameWidth="40" frameHeight="40"/>
+	<SubTexture name="mario intro ihy huh0000" x="0" y="0" width="28" height="32" frameX="-6" frameY="1" frameWidth="40" frameHeight="40"/>
+	<SubTexture name="mario intro ihy shocked0000" x="28" y="0" width="26" height="31" frameX="-6" frameY="0" frameWidth="40" frameHeight="40"/>
+	<SubTexture name="mario intro ihy scared0000" x="0" y="57" width="30" height="21" frameX="-2" frameY="-10" frameWidth="40" frameHeight="40"/>
+	<SubTexture name="mario intro ihy transition0000" x="81" y="0" width="25" height="24" frameX="-6" frameY="-7" frameWidth="40" frameHeight="40"/>
 </TextureAtlas>
