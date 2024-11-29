@@ -1,161 +1,126 @@
 {
 	"animations": [
 		{
-			"loop": false,
+			"loop": true,
 			"offsets": [
-				0,
-				0
+				-9,
+				10
 			],
-			"anim": "idle",
+			"anim": "singLEFT-loop",
 			"fps": 24,
-			"name": "MarioIdle",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				-50
-			],
-			"anim": "singDOWN",
-			"fps": 30,
-			"name": "MarioDown0",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				-22
-			],
-			"anim": "singDOWNmiss",
-			"fps": 30,
-			"name": "MarioDownMiss",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				44,
-				47
-			],
-			"anim": "singUPmiss",
-			"fps": 30,
-			"name": "MarioUpMiss",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				73,
-				8
-			],
-			"anim": "singLEFTmiss",
-			"fps": 30,
-			"name": "MarioLeftMiss",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-20,
-				6
-			],
-			"anim": "singRIGHTmiss",
-			"fps": 30,
-			"name": "MarioRightMiss",
-			"indices": []
-		},
-		{
-			"offsets": [
-				-19,
-				5
-			],
+			"name": "Dad Sing Note LEFT",
 			"indices": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11
-			],
-			"fps": 30,
-			"anim": "singRIGHT",
-			"loop": false,
-			"name": "MarioRight0"
+				12,
+				13,
+				14,
+				15
+			]
 		},
 		{
+			"loop": true,
 			"offsets": [
+				0,
+				27
+			],
+			"anim": "singRIGHT-loop",
+			"fps": 24,
+			"name": "Dad Sing Note RIGHT",
+			"indices": [
+				15,
+				16,
+				17,
+				18
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-6,
+				50
+			],
+			"anim": "singUP-loop",
+			"fps": 24,
+			"name": "Dad Sing Note UP",
+			"indices": [
 				56,
-				44
-			],
-			"indices": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11
-			],
-			"fps": 30,
-			"anim": "singUP",
-			"loop": false,
-			"name": "MarioUp0"
+				57,
+				58,
+				59
+			]
 		},
 		{
 			"offsets": [
-				115,
-				-2
+				110,
+				-110
 			],
-			"indices": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11
+			"loop": true,
+			"fps": 7,
+			"anim": "idle",
+			"indices": [],
+			"name": " idle"
+		},
+		{
+			"offsets": [
+				131,
+				-110
 			],
-			"fps": 30,
-			"anim": "singLEFT",
 			"loop": false,
-			"name": "MarioLeft0"
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": " left"
+		},
+		{
+			"offsets": [
+				120,
+				-110
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": " down"
+		},
+		{
+			"offsets": [
+				104,
+				-110
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": " up"
+		},
+		{
+			"offsets": [
+				100,
+				-120
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": " right"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/Mario_OHGODNO_Assets",
+	"image": "characters/DarkVee",
 	"position": [
-		0,
-		-40
+		-100,
+		100
 	],
-	"healthicon": "marioP",
+	"healthicon": "icon-DarkEevee",
 	"flip_x": false,
 	"healthbar_colors": [
-		255,
-		0,
-		59
+		208,
+		128,
+		71
 	],
 	"camera_position": [
-		-30,
-		-60
+		-280,
+		260
 	],
-	"sing_duration": 4,
+	"sing_duration": 6.1,
 	"scale": 1
 }
